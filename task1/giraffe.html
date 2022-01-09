@@ -4,6 +4,11 @@
         <title>task1</title>
 		<!-- <link rel="stylesheet" type="text/css" href="giraffe.css"> -->
         <style>
+            .container{
+                margin:5px 3px;
+                padding: 30px;
+                border:1px solid rgb(229,229,229);
+            }
             .bold-font{
                 font-family: "Gill Sans MT";
                 font-weight: 600;
@@ -23,15 +28,29 @@
                 font-weight: 400;
                 font-size: 24px;
                 margin-left: 5px;
-            }
+            }  
 
+            img#giraffe-head-pic {
+                float: right;
+                border: 1px solid rgb(229,229,229);
+                height: 175px;
+                width: 175px;
+                border-radius: 50%;
+            }
+            
+            img#giraffe-and-human{
+                /* border: 1px solid rgb(229,229,229); */
+                height: auto;
+                width: 27%;
+            }
         </style>
     </head>
     
     <body>
         <!-- main intro area -->
-        <div>
+        <div class="container">
             <div>
+                <img id="giraffe-head-pic" src="asset1.jpg" alt="Image of the giraffe's head"/>
                 <span class="bold-font">COMMON NAME:</span>
                 <span class="norm-font">Giraffe</span>
             </div>
@@ -68,14 +87,13 @@
     
             <div>
                 <span class="bold-font">SIZE RELATIVE TO A 6-FT PERSON:</span>
-                <div class="giraffe-and-human">
-                    <img src="asset2.gif" alt="Image of the giraffe's comparison to human"/>
-                </div>
+                
+            </div>  
+            
+            <div>
+                <img id="giraffe-and-human" src="asset2.gif" alt="Image of the giraffe's comparison to human"/>
             </div>
-        
-            <div class="giraffe-head-pic">
-                <img src="asset1.jpg" alt="Image of the giraffe's head"/>
-            </div>
+            
 
         </div>
 
